@@ -15,12 +15,12 @@ export default function Hero() {
                 <div className="mt-10 flex items-center justify-center gap-x-6">
                     <a
                         href="https://www.linkedin.com/in/quynhanhninh151/"
-                        className="rounded-md bg-yellow text-navy-blue px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                        className="rounded-md bg-yellow text-navy-blue px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors ease-in duration-300 hover:bg-light-blue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-beige"
                     >
                         Reach out via Linkedin
                     </a>
                     <a href="#about" className="group text-sm font-semibold leading-6">
-                        Poke around <span aria-hidden="true">→</span>
+                        <span className={"group-hover:underline underline-offset-8"}>Poke around 👀</span> <span aria-hidden="true">→</span>
                     </a>
                 </div>
             </div>
