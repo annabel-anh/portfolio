@@ -6,6 +6,4 @@
 h2 {
   @apply text-5xl sm:text-6xl font-medium tracking-tight text-yellow;
 }
-.section-container {
-  @apply md:grid md:grid-cols-5;
-}
+

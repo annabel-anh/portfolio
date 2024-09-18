@@ -4,6 +4,7 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import MobileMenu from "./MobileMenu.jsx";
 import NavLinks from "./NavLinks.jsx";
 import SocialIconLink from "./SocialIconLink.jsx";
+import { DarkThemeToggle, Flowbite } from "flowbite-react";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -61,6 +62,7 @@ export default function Header() {
         </div>
         <NavLinks className="hidden lg:flex lg:gap-x-12" />
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+          <DarkThemeToggle/>
           <SocialIconLink
             href={"https://www.linkedin.com/in/quynhanhninh151/"}
             icon={<FaLinkedinIn />}

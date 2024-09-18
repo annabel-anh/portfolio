@@ -5,31 +5,31 @@ export default function Projects() {
         {
             id: 1,
             img: '/assets/button.jpg',
-            title: 'Project 1',
-            description: 'Description 1',
-            link: 'https://www.google.com'
+            title: 'Promotional Landing Page for Our Favorite Show',
+            description: 'Teamed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest adventures.',
+            link: 'https://www.myportfolio.com'
         },
         {
             id: 2,
             img: '/assets/button.jpg',
-            title: 'Project 2',
-            description: 'Description 2',
-            link: 'https://www.google.com'
+            title: 'Promotional Landing Page for Our Favorite Show',
+            description: 'Teamed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest adventures.',
+            link: 'https://www.myportfolio.com'
         },
         {
             id: 3,
             img: '/assets/button.jpg',
-            title: 'Project 3',
-            description: 'Description 3',
-            link: 'https://www.google.com'
+            title: 'Promotional Landing Page for Our Favorite Show',
+            description: 'Teamed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest adventures.',
+            link: 'https://www.myportfolio.com'
         }
     ]
 
     return (
         <section id="projects">
             <h2 className="mb-10">Projects</h2>
-            <div>
-                {projects.map(project => Card({ ...project }))}
+            <div className={'flex flex-col gap-5'}>
+                {projects.map(project => Card({...project}))}
             </div>
         </section>
     );

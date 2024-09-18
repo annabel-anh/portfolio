@@ -3,7 +3,7 @@ import BackgroundGradient from "../BackgroundGradients.jsx";
 export default function Hero() {
   return (
     <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-      <BackgroundGradient position={"top"} />
+      <BackgroundGradient top={"-top-40 sm:-top-70"} left={"left-[calc(50%-11rem)] sm:left-[calc(50%-30rem)]"} rotate={"rotate-[30deg]"}/>
       <div className="text-center">
         <h1 className="text-4xl font-bold tracking-tight sm:text-6xl text-yellow">
           Hi, I&apos;m Quynh Anh.
@@ -18,7 +18,7 @@ export default function Hero() {
         <div className="mt-10 flex items-center justify-center gap-x-6">
           <a
             href="https://www.linkedin.com/in/quynhanhninh151/"
-            className="rounded-md bg-yellow text-navy-blue px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors ease-in duration-300 hover:bg-light-blue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-beige"
+            className="rounded-md bg-yellow text-navy-blue px-3.5 py-2.5 text-sm font-semibold shadow-sm transition-colors ease-in duration-300 hover:bg-light-blue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-beige"
           >
             Reach out via Linkedin
           </a>
@@ -30,7 +30,7 @@ export default function Hero() {
           </a>
         </div>
       </div>
-      <BackgroundGradient position={"bottom"} />
+      <BackgroundGradient top={"top-[calc(100%-13rem)] sm:top-[calc(100%-30rem)]"} left={"left-[calc(50%+3rem)] sm:left-[calc(50%+36rem)]"}/>
     </div>
   );
 }
