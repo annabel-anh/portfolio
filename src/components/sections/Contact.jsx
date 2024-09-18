@@ -1,7 +1,7 @@
 export default function Contact() {
-    return (
-        <div id="contact">
-            <h2>Contact</h2>
-        </div>
-    )
+  return (
+    <section id="contact">
+      <h2>Contact</h2>
+    </section>
+  );
 }
