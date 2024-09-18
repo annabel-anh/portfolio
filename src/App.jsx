@@ -14,7 +14,7 @@ function App() {
             <div className="relative isolate px-6 pt-14 lg:px-8">
                 <Hero />
             </div>
-            <div className={'h-[500px] p-6 lg:px-12'}>
+            <div className={'flex flex-col gap-32 p-6 lg:px-12'}>
                 <About/>
                 <Skills/>
                 <Projects/>

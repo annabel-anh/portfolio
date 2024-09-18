@@ -11,7 +11,7 @@ export default function MobileMenu({open, setOpen}) {
             <DialogPanel
                 className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-navy-blue text-beige px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-light-blue/10">
                 <div className="flex items-center justify-between">
-                    <a href="#" className="-m-1.5 p-1.5 font-mono">
+                    <a href="#" className="-m-1.5 p-1.5 font-mono" onClick={() => setOpen(false)}>
                         <span className="sr-only">Quynh Anh Ninh</span>
                         qanh.ninh
                     </a>
