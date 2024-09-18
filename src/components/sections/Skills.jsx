@@ -26,7 +26,7 @@ export default function Skills() {
 
   return (
     <section id="skills" className={"section-container"}>
-      <h2 className={"md:col-span-2 md:max-w-1/3"}>Skills</h2>
+      <h2 className={"md:col-span-2 md:max-w-1/3 mb-5 md:mb-0"}>Skills</h2>
       <div className="md:col-span-3 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 md:gap-y-5">
         {skills.map((skill) => (
             <SkillItem key={skill.label} icon={skill.icon} label={skill.label}/>
