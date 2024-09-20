@@ -3,14 +3,14 @@ import BackgroundGradient from "../BackgroundGradients.jsx";
 export default function Hero() {
   return (
     <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-      <BackgroundGradient top={"-top-40 sm:-top-70"} left={"left-[calc(50%-11rem)] sm:left-[calc(50%-30rem)]"} rotate={"rotate-[30deg]"}/>
+      <BackgroundGradient top={"-top-40 sm:-top-70"} left={"left-[calc(50%-11rem)] sm:left-[calc(50%-30rem)]"} rotate={"30deg"}/>
       <div className="text-center">
         <h1 className="text-4xl font-bold tracking-tight sm:text-6xl text-yellow">
           Hi, I&apos;m Quynh Anh.
           <br />
           Welcome to my portfolio!
         </h1>
-        <p className="mt-6 text-lg leading-8 font-light">
+        <p className="mt-6 text-lg leading-8 font-manrope">
           I&apos;m currently a Computer Science student at Utah Valley
           University in Orem, UT. Here you can find some of my projects and get
           to know me. Feel free to poke around or reach out!

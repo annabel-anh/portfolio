@@ -5,14 +5,17 @@ export default {
     theme: {
         fontFamily: {
             inter: 'Inter, sans-serif',
-            mono: 'DM Mono, monospace'
+            mono: 'DM Mono, monospace',
+            manrope: 'Manrope, system-ui',
         },
         dark: true,
         colors: {
+            'black': '#000000',
             'white': '#ffffff',
             'light-blue': '#AFBAD9',
             'steel-blue': '#55679C',
             'navy-blue': '#1E2A5E',
+            'muted-blue': '#2E3A67',
             'beige': '#E1D7B7',
             'red': '#FF6B6B',
             'lighter-red': '#FFA8A8',
