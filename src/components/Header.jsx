@@ -34,7 +34,7 @@ export default function Header() {
     }
   }, [lastScrollY]);
 
-  let headerClasses = `fixed w-full bg-navy-blue/60 backdrop-filter backdrop-blur-md transition-transform duration-300 inset-x-0 top-0 z-50 w-full border-b border-steel-blue/10
+  let headerClasses = `fixed w-full bg-white/70 backdrop-filter backdrop-blur-md transition-transform duration-300 inset-x-0 top-0 z-50 w-full border-b border-steel-blue/10
         ${isVisible ? "translate-y-0" : "-translate-y-full"}`;
 
   return (
@@ -45,7 +45,7 @@ export default function Header() {
       >
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5 font-mono">
-            <span className="sr-only">Your Company</span>
+            <span className="sr-only">Quynh Anh Ninh</span>
             qanh.ninh
           </a>
         </div>

@@ -9,7 +9,7 @@ export default function BackgroundGradient({ top="", left="", rotate=""}) {
         >
             <div
                 style={{clipPath: clipPath}}
-                className={`relative aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-red to-yellow opacity-30 sm:w-[72.1875rem] ${left} rotate-[${rotate}]`}
+                className={`relative aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-blue-300 to-blue-600 opacity-30 sm:w-[72.1875rem] ${left} rotate-[${rotate}]`}
             />
         </div>
     );

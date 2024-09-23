@@ -27,7 +27,7 @@ export default function Projects() {
 
     return (
         <section id="projects">
-            <h2 className="mb-10">Projects</h2>
+            <h2 className="mb-10">Featured Projects</h2>
             <div className={'flex flex-col gap-10'}>
                 {projects.map(project => Card({...project}))}
             </div>
