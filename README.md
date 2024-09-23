@@ -26,6 +26,7 @@ This portfolio website is a personal project that showcases my skills, projects,
 - Vite
 - ESLint
 - Tailwind CSS
+- Framer Motion
 
 ## Installation
 
@@ -52,14 +53,21 @@ This will start the development server and you can view the project at http://lo
 ```
 src/
 ├── components/
-│   ├── Header.jsx
 │   ├── BackgroundGradients.jsx
+│   ├── Card.jsx
+│   ├── Header.jsx
+│   ├── MobileMenu.jsx
+│   ├── NavLinks.jsx
+│   ├── SkillItem.jsx
+│   ├── SocialIconLink.jsx
 │   └── sections/
 │       ├── About.jsx
-│       ├── Skills.jsx
+│       ├── Contact.jsx
+│       ├── Hero.jsx
 │       ├── Projects.jsx
-│       └── Contact.jsx
+│       └── Skills.jsx
+├── App.css
 ├── App.jsx
-├── index.jsx
-└── App.css
+├── index.css
+└── main.jsx
 ```

@@ -12,7 +12,7 @@ export default function Card({img, title, description, link}) {
             <div className={'flex flex-col gap-3 md:col-span-4 lg:col-span-3 p-10'}>
                 <h3 className={'font-medium font-manrope text-xl text-gray-900'}>{title}</h3>
                 <p className={'font-manrope leading-6'}>{description}</p>
-                <a href="#" className="group text-sm font-semibold leading-6 group-hover:text-blue-600" target={"_blank"}
+                <a href={link} className="group text-sm font-semibold leading-6 group-hover:text-blue-600" target={"_blank"}
                    rel={"noopener noreferrer"}>
                     <span className={'group-hover:underline underline-offset-8'}>
                       Learn more

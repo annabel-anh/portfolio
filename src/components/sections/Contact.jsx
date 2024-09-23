@@ -1,5 +1,5 @@
 export default function Contact() {
-    return (<section id="contact" className={'mt-12 bg-gray-900 text-white px-6 py-12 sm:px-12'}>
+    return (<section id="contact" className={'mt-12 bg-gray-900 text-white px-6 py-20 sm:px-12'}>
             <h2 className={'mb-10 text-blue-400'}>Let&apos;s Connect</h2>
             <div className={'font-manrope mb-10'}>
                 <p className={'mb-3'}>Say hello at <a href={'mailto:qanh.ninh@gmail.com'}
