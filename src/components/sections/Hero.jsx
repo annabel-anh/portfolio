@@ -1,11 +1,16 @@
 import BackgroundGradient from '../BackgroundGradients.jsx';
+import { motion } from 'framer-motion';
 
 export default function Hero() {
     return (
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
             <BackgroundGradient top={'-top-40 sm:-top-70'} left={'left-[calc(50%-11rem)] sm:left-[calc(50%-30rem)]'}
                                 rotate={'30deg'}/>
-            <div className="text-center">
+            <motion.div
+                initial={{ opacity: 0, scale: 0.8, y: 50 }}
+                animate={{ opacity: 1, scale: 1, y: 0 }}
+                transition={{ duration: 1, ease: "easeOut" }}
+                className="text-center">
                 <h1 className="text-4xl font-bold tracking-tight sm:text-6xl text-gray-900">
                     Hi, I&apos;m Quynh Anh.
                     <br/>
@@ -32,7 +37,7 @@ export default function Hero() {
                         <span aria-hidden="true">→</span>
                     </a>
                 </div>
-            </div>
+            </motion.div>
             <BackgroundGradient top={'top-[calc(100%-13rem)] sm:top-[calc(100%-30rem)]'}
                                 left={'left-[calc(50%+3rem)] sm:left-[calc(50%+36rem)]'}/>
         </div>);

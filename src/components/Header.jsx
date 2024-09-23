@@ -13,10 +13,8 @@ export default function Header() {
   const controlHeader = () => {
     if (typeof window !== "undefined") {
       if (window.scrollY > lastScrollY) {
-        // if scroll down hide the navbar
         setIsVisible(false);
       } else {
-        // if scroll up show the navbar
         setIsVisible(true);
       }
 
