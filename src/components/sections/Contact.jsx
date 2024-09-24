@@ -20,7 +20,7 @@ export default function Contact() {
         <p className={'mb-3'}>
           For more information, here&apos;s my {' '}
           <a
-            href="../../../public/assets/quynhanhninh_swe_cv.pdf"
+            href="/assets/quynhanhninh_swe_cv.pdf"
             target={'_blank'}
             rel={'noopener noreferrer'}
             className={'underline underline-offset-8 hover:text-amber-400'}

@@ -37,7 +37,7 @@ export default function About() {
               Object-Oriented Programming (OOP) classes, I have also gained a
               strong understanding of OOP principles and how they can be applied
               in real-world applications.
-              <br />
+              <br/>
               In addition to my development experience, I found an interest in{" "}
               <b>data analytics</b> when I first learned about relational
               databases and SQL. This led me to pursue a minor in Applied Data
@@ -60,6 +60,14 @@ export default function About() {
               Outside of coding, I enjoy historical fiction, British comedy
               shows, and hanging out with my three cats.
             </p>
+            <a
+              target={"_blank"}
+              rel={"noopener noreferrer"}
+              href="/assets/quynhanhninh_swe_cv.pdf"
+              className="w-fit rounded-md bg-amber-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors duration-300 ease-in hover:bg-amber-600/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-beige"
+            >
+              Download my resume
+            </a>
           </div>
         </div>
       </article>
