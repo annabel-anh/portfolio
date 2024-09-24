@@ -33,7 +33,10 @@ export default function About() {
               that integrates a front end using Bootstrap and React with a
               RESTful API built with Express.js and MySQL. This project allowed
               me to improve my skills in both front-end and back-end
-              development.
+              development. Also, as an Instructional Assistant for
+              Object-Oriented Programming (OOP) classes, I have also gained a
+              strong understanding of OOP principles and how they can be applied
+              in real-world applications.
               <br />
               In addition to my development experience, I found an interest in{" "}
               <b>data analytics</b> when I first learned about relational

@@ -31,7 +31,7 @@ export default function Projects() {
         "A handy Discord bot built with Node.js and discord.js that lets users check local weather, send text messages and emails, generate lorem ipsum, dad jokes, and stream music remotely.",
       liveDemoLink: "",
       gitHubLink: "https://github.com/annabel-anh/discord-bot",
-    }
+    },
   ];
 
   return (
