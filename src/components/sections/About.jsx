@@ -64,7 +64,7 @@ export default function About() {
               target={"_blank"}
               rel={"noopener noreferrer"}
               href="/assets/quynhanhninh_swe_cv.pdf"
-              className="w-fit font-inter rounded-md bg-amber-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors duration-300 ease-in hover:bg-amber-600/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-beige"
+              className="w-fit rounded-md bg-amber-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors duration-300 ease-in hover:bg-amber-600/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-beige"
             >
               Download my resume
             </a>
