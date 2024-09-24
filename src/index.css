@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 h2 {
-  @apply text-5xl sm:text-6xl font-medium tracking-tight text-gray-900;
+  @apply text-5xl font-medium tracking-tight text-gray-900 sm:text-6xl;
 }
 
 b {

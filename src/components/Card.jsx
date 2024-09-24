@@ -10,29 +10,29 @@ export default function Card({
     <article
       key={id}
       className={
-        "flex flex-col md:grid md:grid-cols-7 lg:grid-cols-6 lg:w-full rounded-xl overflow-clip bg-white ring-1 ring-gray-900/10 shadow-sm hover:shadow-md transition-all ease-in-out duration-300"
+        "flex flex-col overflow-clip rounded-xl bg-white shadow-sm ring-1 ring-gray-900/10 transition-all duration-300 ease-in-out hover:shadow-md md:grid md:grid-cols-7 lg:w-full lg:grid-cols-6"
       }
     >
       <div
         className={
-          "md:col-span-3 lg:col-span-3 flex justify-center items-center p-6 bg-amber-50 ring-1" +
+          "flex items-center justify-center bg-amber-50 p-6 ring-1 md:col-span-3 lg:col-span-3" +
           " ring-gray-900/15"
         }
       >
         <img src={img} alt={title} className={"rounded-lg"} />
       </div>
-      <div className={"flex flex-col gap-3 md:col-span-4 lg:col-span-3 p-10"}>
-        <h3 className={"font-medium font-manrope text-xl text-gray-900"}>
+      <div className={"flex flex-col gap-3 p-10 md:col-span-4 lg:col-span-3"}>
+        <h3 className={"font-manrope text-xl font-medium text-gray-900"}>
           {title}
         </h3>
         <p className={"font-manrope"}>{description}</p>
-        <div className={"flex gap-6 items-center mt-6"}>
+        <div className={"mt-6 flex items-center gap-6"}>
           {liveDemoLink && (
             <a
               target={"_blank"}
               rel={"noopener noreferrer"}
               href={liveDemoLink}
-              className="rounded-md bg-amber-600 text-white px-3.5 py-2.5 text-sm font-semibold shadow-sm transition-colors ease-in duration-300 hover:bg-amber-600/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-beige"
+              className="rounded-md bg-amber-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors duration-300 ease-in hover:bg-amber-600/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-beige"
             >
               Live demo
             </a>
@@ -44,7 +44,7 @@ export default function Card({
               target={"_blank"}
               rel={"noopener noreferrer"}
             >
-              <span className={"group-hover:underline underline-offset-8"}>
+              <span className={"underline-offset-8 group-hover:underline"}>
                 Learn more
               </span>
               <span aria-hidden="true"> →</span>

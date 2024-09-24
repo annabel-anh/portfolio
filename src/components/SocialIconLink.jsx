@@ -2,7 +2,7 @@ export default function SocialIconLink({ href, icon, className }) {
   return (
     <a
       href={href}
-      className={`${className} hover:text-amber-600 text-xl`}
+      className={`${className} text-xl hover:text-amber-600`}
       target={"_blank"}
       rel={"noopener noreferrer"}
     >

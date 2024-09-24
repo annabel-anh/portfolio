@@ -30,7 +30,7 @@ export default function MobileMenu({ open, setOpen }) {
         <div className="mt-6 flow-root">
           <div className="-my-6 divide-y divide-gray-900/10">
             <NavLinks className="space-y-2 py-6" mobile setOpen={setOpen} />
-            <div className="py-6 flex gap-2">
+            <div className="flex gap-2 py-6">
               <SocialIconLink
                 href={"https://www.linkedin.com/in/quynhanhninh151/"}
                 icon={<FaLinkedinIn />}

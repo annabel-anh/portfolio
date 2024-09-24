@@ -9,7 +9,7 @@ import BackgroundGradient from "./components/BackgroundGradients.jsx";
 
 function App() {
   return (
-    <div className="text-gray-600 font-inter relative isolate">
+    <div className="relative isolate font-inter text-gray-600">
       <Header />
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <Hero />

@@ -7,7 +7,7 @@ export default function Projects() {
       img: "/assets/vanlife_screenshot.png",
       title: "VanLife - A Travel Van Rental App",
       description:
-        "VanLife Rental App is a web application that allows users to rent travel vans for their road trips or to" +
+        "A web application that allows users to rent travel vans for their road trips or to" +
         " host their vans. The app provides a variety of vans with different features and prices, catering to" +
         " various travel needs. Not all features of this web application have been implemented. The main purpose of" +
         " this project is to learn React Router.",
@@ -25,21 +25,21 @@ export default function Projects() {
     },
     {
       id: 3,
-      img: "/assets/24hintaipei_screenshot.png",
-      title: "24h in Taipei - A Travel Guide",
-      description:
-        "A website designed to provide users with essential information for traveling in Taipei. It features form validation and theme toggling for a personalized user experience. It is built using HTML/CSS, JavaScript and is designed to run in a web browser on desktop or a tablet.",
-      liveDemoLink: "https://24hintaipei.netlify.app/",
-      gitHubLink: "https://github.com/annabel-anh/24h-in-taipei",
-    },
-    {
-      id: 4,
       img: "/assets/discord_bot_screenshot.png",
       title: "Discord Bot",
       description:
         "A handy Discord bot built with Node.js and discord.js that lets users check local weather, send text messages and emails, generate lorem ipsum, dad jokes, and stream music remotely.",
       liveDemoLink: "",
       gitHubLink: "https://github.com/annabel-anh/discord-bot",
+    },
+    {
+      id: 4,
+      img: "/assets/24hintaipei_screenshot.png",
+      title: "24h in Taipei - A Travel Guide",
+      description:
+        "A website designed to provide users with essential information for traveling in Taipei. It features form validation and theme toggling for a personalized user experience. It is built using HTML, CSS, and JavaScript and is designed to run in a web browser on a desktop or a tablet.",
+      liveDemoLink: "https://24hintaipei.netlify.app/",
+      gitHubLink: "https://github.com/annabel-anh/24h-in-taipei",
     },
   ];
 

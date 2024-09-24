@@ -1,17 +1,17 @@
 export default function About() {
   return (
     <section id={"about"} className={"md:grid md:grid-cols-6"}>
-      <h2 className={"md:col-span-2 md:max-w-1/3 mb-10 md:mb-0"}>About Me</h2>
+      <h2 className={"md:max-w-1/3 mb-10 md:col-span-2 md:mb-0"}>About Me</h2>
       <article className={"md:col-span-4"}>
         <div className={"flex flex-col gap-6 lg:flex-row"}>
           <img
             src="/assets/qanh.jpeg"
             alt="Quynh Anh photo"
-            className={"w-36 h-36 rounded-full filter grayscale"}
+            className={"h-36 w-36 rounded-full grayscale filter"}
           />
           <div
             className={
-              "font-manrope tracking-wide leading-8 flex flex-col gap-3"
+              "flex flex-col gap-3 font-manrope leading-8 tracking-wide"
             }
           >
             <p>
@@ -35,8 +35,8 @@ export default function About() {
               me to improve my skills in both front-end and back-end
               development.
               <br />
-              In addition to my development experience, I discovered a passion
-              for <b>data analytics</b> when I first learned about relational
+              In addition to my development experience, I found an interest in{" "}
+              <b>data analytics</b> when I first learned about relational
               databases and SQL. This led me to pursue a minor in Applied Data
               Analytics, where I gained a deeper knowledge of advanced SQL
               concepts, Python, and libraries for data analysis, as well as
@@ -44,7 +44,10 @@ export default function About() {
             </p>
             <p>
               My permanent residency was approved in 2022, and I am{" "}
-              <b>fully authorized to work in the U.S. without sponsorship</b>{" "}
+              <b>
+                fully authorized to work in the U.S. without the need for
+                sponsorship
+              </b>{" "}
               (yay!). I am seeking opportunities in either{" "}
               <b>full-stack development</b> or <b>data analysis</b> roles,
               excited to apply my skills in a professional setting and continue
@@ -58,7 +61,7 @@ export default function About() {
               target={"_blank"}
               rel={"noopener noreferrer"}
               href="/public/cv/quynhanhninh_swe_cv.pdf"
-              className="mt-3 w-fit rounded-md bg-amber-600 text-white px-3.5 py-2.5 text-sm font-semibold shadow-sm transition-colors ease-in duration-300 hover:bg-amber-600/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-beige"
+              className="mt-3 w-fit rounded-md bg-amber-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors duration-300 ease-in hover:bg-amber-600/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-beige"
             >
               Download my resume
             </a>
