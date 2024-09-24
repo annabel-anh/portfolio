@@ -31,16 +31,7 @@ export default function Projects() {
         "A handy Discord bot built with Node.js and discord.js that lets users check local weather, send text messages and emails, generate lorem ipsum, dad jokes, and stream music remotely.",
       liveDemoLink: "",
       gitHubLink: "https://github.com/annabel-anh/discord-bot",
-    },
-    {
-      id: 4,
-      img: "/assets/24hintaipei_screenshot.png",
-      title: "24h in Taipei - A Travel Guide",
-      description:
-        "A website designed to provide users with essential information for traveling in Taipei. It features form validation and theme toggling for a personalized user experience. It is built using HTML, CSS, and JavaScript and is designed to run in a web browser on a desktop or a tablet.",
-      liveDemoLink: "https://24hintaipei.netlify.app/",
-      gitHubLink: "https://github.com/annabel-anh/24h-in-taipei",
-    },
+    }
   ];
 
   return (
