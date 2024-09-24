@@ -20,7 +20,7 @@ export default function Contact() {
         <p className={"group"}>
           For more information, here&apos;s my{" "}
           <a
-            href="public/cv/quynhanhninh_swe_cv.pdf"
+            href="../../../quynhanhninh_swe_cv.pdf"
             className={"underline underline-offset-8 hover:text-amber-400"}
             target={"_blank"}
           >

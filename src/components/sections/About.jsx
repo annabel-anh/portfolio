@@ -63,7 +63,7 @@ export default function About() {
             <a
               target={"_blank"}
               rel={"noopener noreferrer"}
-              href="public/cv/quynhanhninh_swe_cv.pdf"
+              href="../../../quynhanhninh_swe_cv.pdf"
               className="mt-3 w-fit rounded-md bg-amber-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors duration-300 ease-in hover:bg-amber-600/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-beige"
             >
               Download my resume
