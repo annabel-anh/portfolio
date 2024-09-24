@@ -17,16 +17,6 @@ export default function Contact() {
             qanh.ninh@gmail.com
           </a>
         </p>
-        <p className={"group"}>
-          For more information, here&apos;s my{" "}
-          <a
-            href="../../../quynhanhninh_swe_cv.pdf"
-            className={"underline underline-offset-8 hover:text-amber-400"}
-            target={"_blank"}
-          >
-            resume
-          </a>
-        </p>
       </div>
       <a
         href="https://www.linkedin.com/in/quynhanhninh151/"
