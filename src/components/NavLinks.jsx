@@ -7,7 +7,7 @@ const navigation = [
 
 export default function NavLinks({ className, mobile = false, setOpen }) {
   const linkClass = mobile
-    ? "-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-blue-100"
+    ? "-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-amber-100"
     : "text-sm font-semibold leading-6 hover:underline hover:underline-offset-8";
 
   const handleLinkClick = () => {
